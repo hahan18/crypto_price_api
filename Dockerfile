@@ -13,8 +13,5 @@ COPY . /app/
 
 EXPOSE 8000
 
-COPY entrypoint.sh /app/entrypoint.sh
-RUN chmod +x /app/entrypoint.sh
-
-CMD ["/app/entrypoint.sh"]
-
+# Apply database migrations and start the Daphne server
+CMD ["sh", "-c", "python manage.py migrate && daphne -b 0.0.0.0 -p 8000 crypto_prices.asgi:application"]
