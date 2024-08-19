@@ -74,5 +74,5 @@ Coverage reports will be generated and can be reviewed to ensure full test cover
 
 ## Authors
 
-- **Oleksandr Khakhanovskyi** - "Crypto Price API""
+- **Oleksandr Khakhanovskyi** - "Crypto Price Data API"
 
