@@ -1,0 +1,167 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.sqlite
+*.pyo
+
+# If you use Django Debug Toolbar:
+debug_toolbar/
+
+# Django secret key settings
+.env
+.env.local
+.env.*.local
+.settings
+*.secret
+local_settings.py
+
+# pytest
+.cache
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pip-log.txt
+
+# Testing results
+coverage_html_report/
+htmlcov/
+.tox/
+.nox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Local history
+.local_history/
+
+# pyre type checker
+.pyre/
+
+# Docker
+*.log
+*.pid
+*.pid.lock
+*.log.lock
+run/
+tmp/
+*.swp
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other
+*.stackdump
+*.o
+*.a
+*.d
+*.idb
+*.pdb
+*.lib
+*.exp
+*.exe
+
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/
+
+# Archives
+*.7z
+*.jar
+*.bz2
+*.gz
+*.tar
+*.tgz
+*.zip
+
+# System
+.PyCharm*
